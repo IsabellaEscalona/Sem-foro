@@ -1,11 +1,33 @@
-/* 
+.palito {
+    width: 30px;
+    height: 200px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.brillo div {
+    box-shadow: 0 0 15px 5px rgb(255, 255, 0);
+    /* background-color: #ffc10700 !important; */
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --bs-text-opacity: 1;
+    margin-right: -5px !important;
 
-*/
+}
+
+[class^="light"] div {
+
+
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.TrafficColor {
+
+    height: 400px;
+    width: 200px;
+    border-radius: 20px;
+}
